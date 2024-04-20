@@ -27,5 +27,16 @@ y2: The y-coordinate of the second point
 **Usage:**
 TML is intended to be used as a means of providing language models with structured information about tools and functions. It allows for easy parsing and interpretation of tool descriptions, enabling models to understand the purpose and requirements of various tools.
 
-**Conclusion:**
-Tool Markup Language (TML) offers a simple and effective way to describe tools, functions, and their parameters in a structured format. By following the defined syntax, developers can create clear and concise descriptions of tools, facilitating better understanding and utilization by language models.
+**Python Examples:**
+
+```
+from TMLParser import TML
+parser = TML(file_path='/google_search.tml') # file loading
+```
+
+```
+from TMLParser import TML
+parser = TML(tml_input="") # string loading
+```
+
+TMLParser.TML will always return an equivalent dictionary. If using the C version, you must compile it, but then you can use it with any other language if there isn't a native one for your one. Feel free to make PRs with other languages, and YMMV.
