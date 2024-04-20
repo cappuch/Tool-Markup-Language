@@ -1,4 +1,4 @@
-Tool Markup Language (TML) is a lightweight markup language designed for describing tools, functions, and their parameters in a structured format. It provides a simple yet effective way to define tools and their usage, making it easy for language models to understand and process.
+Tool Markup Language (TML) is a lightweight markup language designed for describing tools, functions, and their parameters in a structured format. It provides a simple yet effective way to define tools and their usage, making it easy for language models to understand and process. The parsed content is an OpenAI-compatible function for function calling.
 
 **Documentation:**
 For detailed documentation on TML syntax and usage, please refer to the [documentation file](/docs.md).
