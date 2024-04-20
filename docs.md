@@ -30,13 +30,15 @@ TML is intended to be used as a means of providing language models with structur
 **Python Examples:**
 
 ```
-from TMLParser import TML
-parser = TML(file_path='/google_search.tml') # file loading
+from TMLParser import TMLParser
+parser = TMLParser(file_path='/google_search.tml') # file loading
+parser.parse()
 ```
 
 ```
-from TMLParser import TML
-parser = TML(tml_input="") # string loading
+from TMLParser import TMLParser
+parser = TMLParser(tml_input="") # string loading
+parser.parse()
 ```
 
 TMLParser.TML will always return an equivalent dictionary. If using the C version, you must compile it, but then you can use it with any other language if there isn't a native one for your one. Feel free to make PRs with other languages, and YMMV.
