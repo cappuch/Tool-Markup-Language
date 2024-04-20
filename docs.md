@@ -29,13 +29,13 @@ TML is intended to be used as a means of providing language models with structur
 
 **Python Examples:**
 
-```
+```py
 from TMLParser import TMLParser
 parser = TMLParser(file_path='/google_search.tml') # file loading
 parser.parse()
 ```
 
-```
+```py
 from TMLParser import TMLParser
 parser = TMLParser(tml_input="") # string loading
 parser.parse()
